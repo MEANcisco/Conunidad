@@ -16,11 +16,11 @@ const routes: Routes = [
         component: MainComponent,
         children: [
             {
-                path: 'home',
+                path: 'landing',
                 component: HomeComponent,
             },
             {
-                path: 'landing',
+                path: 'home',
                 component: LandingComponent
             }
         ]
